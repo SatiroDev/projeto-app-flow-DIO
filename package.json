@@ -1,0 +1,25 @@
+{
+  "name": "projeto-app-flow-dio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "tsx src/server.ts",
+    "start:watch": "tsx watch src/server.ts",
+    "dist": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.2"
+  }
+}
