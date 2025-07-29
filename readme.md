@@ -10,7 +10,7 @@ Podcast Menager é um projeto backend desenvolvido como parte de um curso da Dig
 
 - 🔎 Filtro de busca por nome do podcast
 
-- 🎬 Visualização com thumbnail, título e link direto para o episódio no YouTube
+- 📄 Estrutura de dados pronta para consumo (com título, thumbnail, link e categorias)
 
 ## 🧠 Como funciona?
 Os dados seguem este formato:
@@ -29,6 +29,32 @@ Os dados seguem este formato:
   // outros episódios...
 ]
 ```
+
+## 🚀 Como rodar o projeto localmente
+### 1. Clone o repositório:
+
+```bash
+
+git clone https://github.com/SatiroDev/projeto-app-flow-DIO
+cd podcast-menager
+```
+## Instale as dependências :
+
+```bash
+npm install
+```
+
+## Inicie o servidor (caso esteja usando Express ou semelhante):
+
+```bash
+npm run start:dev
+```
+## Acesse a API:
+
+
+- http://localhost:3000/api/list
+
+- http://localhost:3000/api/episode?p=Podpah
 
 ## 🎯 Objetivo
 Criar a base de um sistema que possa ser integrado futuramente com uma interface, oferecendo uma estrutura limpa e eficiente para o gerenciamento de episódios de podcasts em vídeo.
